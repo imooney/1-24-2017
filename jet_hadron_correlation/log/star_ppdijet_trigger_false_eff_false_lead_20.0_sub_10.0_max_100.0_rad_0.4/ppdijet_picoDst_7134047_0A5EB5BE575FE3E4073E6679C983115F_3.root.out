@@ -1,0 +1,52 @@
+[src/star_pp_correlation.cxx::main()] -- OUT: Using Custom Settings
+ ------- SUMMARY OF SETTINGS ------
+ Jetfinding Algorithm: Anti-kt
+ Resolution Parameter: 0.4
+ Leading Jet minimum pt: 20
+ SubLeading Jet minimum pt: 10
+ Jet Maximum Pt: 100
+ Hard Jet Constituent minimum pt: 2
+ Soft Jet Constituent minimum pt: 0.2
+ Number of bins in Vertex Z position: 12
+ Vertex Z range (symmetric about 0): 60
+ Outputting dijet tree to: tree/tree_picoDst_7134047_0A5EB5BE575FE3E4073E6679C983115F_3.root
+ Outputting histograms to: correlations/corr_picoDst_7134047_0A5EB5BE575FE3E4073E6679C983115F_3.root
+ ---------- END SUMMARY ----------
+[i] [TStarJetPicoReader::SetApplyMIPCorrection] : Disabling MIPCorrection
+[i] [TStarJetPicoReader::SetApplyFractionHadronicCorrection] : Enabling FractionHadronicCorrection
+[i] [TStarJetPicoReader::SetApplyMIPCorrection] : Disabling MIPCorrection
+[i] [TStarJetPicoReader::SetApplyFractionHadronicCorrection] : Enabling FractionHadronicCorrection
+[i] [TStarJetPicoReader::SetFractionHadronicCorrection] : FractionHadronicCorrection 1.000
+Using these track cuts:
+ dca : 1
+ nfit : 20
+ nfitratio : 0.52
+ maxpt : 9999
+Using these tower cuts:
+  GetMaxEtCut = 9999
+  Gety8PythiaCut = 0
+[i] [TStarJetPicoReader::Init] : INIT
+[i] [TStarJetPicoReader::Init] : Number of events in the chain 2982
+[i] [TStarJetPicoReader::Init] : Run set for 2982 events.
+[i] [TStarJetPicoReader::PrintStatus] : Starting timing measurement.
+#--------------------------------------------------------------------------
+#                         FastJet release 3.2.0
+#                 M. Cacciari, G.P. Salam and G. Soyez                  
+#     A software package for jet finding and analysis at colliders      
+#                           http://fastjet.fr                           
+#	                                                                      
+# Please cite EPJC72(2012)1896 [arXiv:1111.6097] if you use this package
+# for scientific work and optionally PLB641(2006)57 [hep-ph/0512210].   
+#                                                                       
+# FastJet is provided without warranty under the terms of the GNU GPLv2.
+# It uses T. Chan's closest pair algorithm, S. Fortune's Voronoi code
+# and 3rd party plugin jet algorithms. See COPYING file for details.
+#--------------------------------------------------------------------------
+  ----------------- SUMMARY ----------------- 
+  Processed 1922 events in 0.921041 seconds.
+  Of these, 6 produced hard dijet pairs,
+  Which corresponds to 0.312175%
+  Chance per event to find a hard dijet pair
+  Of these 6 hard dijets, 6 produced full dijets that were used
+  for correlation.
+  Overall Efficiency: 0.153507 seconds per dijet
